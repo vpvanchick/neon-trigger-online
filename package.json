@@ -1,0 +1,10 @@
+{
+  "name": "neon-trigger-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket presence and room server for Neon Trigger (up to 10 players per room)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}
